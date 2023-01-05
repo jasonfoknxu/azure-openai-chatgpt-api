@@ -1,0 +1,5 @@
+# Compiled scripts 
+/dist
+
+# Dependencies directory
+/node_modules

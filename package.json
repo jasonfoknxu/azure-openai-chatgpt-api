@@ -1,0 +1,32 @@
+{
+  "name": "restful-api-typescript-express-template",
+  "version": "1.0.0",
+  "description": "A simple RESTful API template with TypeScript and Express",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/jasonfoknxu/restful-api-typescript-express-template",
+  "author": "jasonfoknxu <nxu@nxu.biz> (https://nxuweb.net)",
+  "license": "MIT",
+  "repository": "github:jasonfoknxu/restful-api-typescript-express-template",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "test": "yarn start test"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.15",
+    "@types/jsonwebtoken": "^9.0.0",
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "xss-clean": "^0.1.1"
+  }
+}
