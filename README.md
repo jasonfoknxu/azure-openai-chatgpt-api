@@ -6,10 +6,11 @@ A simple RESTful API of GPT-4 / ChatGPT with Azure OpenAI Service, build with Ty
 
 ## Features
 - Base on Azure OpenAI Service REST API
-- Simple, easy to use, one endpoint only
-- Flexible for future extension and development
+- One endpoint for simple usage
+- Flexible and easily extensible for future development
 - Logit bias & function call are not supported yet
 - RESTful API structure
+- Ready for use with PM2
 - Build with TypeScript, Node.js, Express
 
 ---

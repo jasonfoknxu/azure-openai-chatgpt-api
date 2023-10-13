@@ -1,6 +1,6 @@
 {
   "name": "azure-openai-chatgpt-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple RESTful API of GPT-4/ChatGPT with Azure OpenAI Service for testing and internal use",
   "main": "dist/index.js",
   "homepage": "https://github.com/jasonfoknxu/azure-openai-chatgpt-api",
@@ -10,7 +10,10 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc -p tsconfig.json",
-    "test": "yarn start test"
+    "test": "yarn start test",
+    "pm2": "pm2 start ecosystem.config.js",
+    "pm2:bg": "pm2 start ecosystem.config.js --no-daemon",
+    "pm2:update": "pm2 startOrReload ecosystem.config.js"
   },
   "devDependencies": {
     "@types/compression": "^1.7.2",
