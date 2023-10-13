@@ -1,18 +1,18 @@
 import express from 'express';
-import userRoute from './user';
+import gptRoute from './gpt';
 
 const router = express.Router();
 
 // Response result of root path
 router.all('/', (req, res, next) => {
-  return res.result('Status: OK');
+  return res.result('GPT API: OK');
 });
 
 // Add routes to the router
 const routes = [
   {
-    path: '/user',
-    route: userRoute,
+    path: '/gpt',
+    route: gptRoute,
   },
 ];
 
