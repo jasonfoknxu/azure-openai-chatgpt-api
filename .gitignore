@@ -1,3 +1,6 @@
+# Prevent uploading config with secret information
+.env
+
 # Compiled scripts 
 /dist
 
